@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (3.4.1)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - OMGHTTPURLRQ (3.2.0):
+    - OMGHTTPURLRQ/RQ (= 3.2.0)
+  - OMGHTTPURLRQ/FormURLEncode (3.2.0)
+  - OMGHTTPURLRQ/RQ (3.2.0):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.2.0)
+  - PromiseKit (3.4.0):
+    - PromiseKit/Foundation (= 3.4.0)
+    - PromiseKit/QuartzCore (= 3.4.0)
+    - PromiseKit/UIKit (= 3.4.0)
+  - PromiseKit/CorePromise (3.4.0)
+  - PromiseKit/Foundation (3.4.0):
+    - OMGHTTPURLRQ (~> 3.2.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.4.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - GoogleMaps (~> 2.0)
+  - PromiseKit (~> 3.4)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  OMGHTTPURLRQ: 1e54807cb7d5dbb506926e53498e1e9ac5720c79
+  PromiseKit: 72a1500ddedd052b5f69b44e3bb4091da2fd1a7d
+
+PODFILE CHECKSUM: 4838b8da2f379c0d6deb46c4a8a5621a0009e0f5
+
+COCOAPODS: 1.0.0
